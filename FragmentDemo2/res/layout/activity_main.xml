@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <!-- 装载列表的Fragment 的容器 -->
+    <LinearLayout 
+        android:orientation="vertical"
+        android:id="@+id/list_container"
+        android:layout_width="match_parent"
+  		android:layout_height="match_parent">
+    </LinearLayout>
+    
+
+    <!-- 装载详情的Fragment 的容器 -->
+    <LinearLayout 
+        android:orientation="vertical"
+        android:id="@+id/detail_container"
+        android:layout_width="match_parent"
+  		android:layout_height="match_parent">
+    </LinearLayout>
+
+</FrameLayout>
